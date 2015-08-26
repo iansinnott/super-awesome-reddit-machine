@@ -45,6 +45,7 @@
     "font-awesome-webpack": "*",
     "gulp": "*",
     "html-loader": "*",
+    "immutable": "^3.7.4",
     "jade": "*",
     "keymirror": "*",
     "morgan": "*",
