@@ -1,2 +1,2 @@
 import Nuclear from 'nuclear-js';
-export default new Nuclear.Reactor({ debug: true });
+export default new Nuclear.Reactor({ debug: __DEV__ });
