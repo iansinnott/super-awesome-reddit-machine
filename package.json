@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.4.0",
-  "description": "",
+  "name": "super-awesome-reddit-machine",
+  "version": "0.0.1",
+  "description": "A super awesome reddit machine.",
   "main": "bin/www",
   "engines": {
     "node": "^0.12"
@@ -12,11 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iansinnott/react-boilerplate"
+    "url": "https://github.com/iansinnott/super-awesome-reddit-machine"
   },
   "author": "Ian Sinnott <ian@iansinnott.com> (http://iansinnott.com)",
   "license": "MIT",
-  "homepage": "",
   "devDependencies": {
     "eslint": "*",
     "eslint-config-airbnb": "*",
