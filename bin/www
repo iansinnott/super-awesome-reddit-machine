@@ -1,0 +1,23 @@
+#!/usr/bin/env node --harmony
+'use strict';
+
+var app = require('../server');
+var db = require('../server/config/database.js');
+var waterline = db.waterline;
+var config = db.config;
+
+require('colors');
+
+waterline.initialize(config, function(err, models) {
+  if (err) throw err;
+  app.models = models.collections;
+  app.connections = models.connections;
+  app.listen(app.get('port'), function() {
+    console.log(
+      'App Server'.green,
+      'listening on port',
+      app.get('port').toString().magenta
+    );
+  });
+});
+

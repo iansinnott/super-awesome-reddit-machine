@@ -1,0 +1,65 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.4.0",
+  "description": "",
+  "main": "bin/www",
+  "engines": {
+    "node": "^0.12"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint server client",
+    "start": "./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iansinnott/react-boilerplate"
+  },
+  "author": "Ian Sinnott <ian@iansinnott.com> (http://iansinnott.com)",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-react": "*",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "*",
+    "axis": "*",
+    "babel": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-plugin-typecheck": "*",
+    "babel-runtime": "*",
+    "body-parser": "*",
+    "booshjs": "*",
+    "classnames": "*",
+    "colors": "*",
+    "compression": "*",
+    "css-loader": "*",
+    "express": "*",
+    "extract-text-webpack-plugin": "*",
+    "file-loader": "*",
+    "font-awesome": "*",
+    "font-awesome-webpack": "*",
+    "gulp": "*",
+    "html-loader": "*",
+    "jade": "*",
+    "keymirror": "*",
+    "morgan": "*",
+    "react": "*",
+    "react-hot-loader": "*",
+    "rimraf": "*",
+    "rupture": "*",
+    "sails-disk": "*",
+    "strip-loader": "*",
+    "style-loader": "*",
+    "stylus-loader": "*",
+    "typographic": "*",
+    "url-loader": "*",
+    "waterline": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
