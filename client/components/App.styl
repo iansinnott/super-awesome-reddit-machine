@@ -34,6 +34,33 @@ strong
 
 // }}} END Tags
 
+input
+  outline none
+  border 1px solid #ddd
+  width 100%
+  &:focus
+    border-color blue
+
+li
+  margin-bottom (bs / 4)
+  vertical-align auto
+
+disabled()
+  background #ddd
+  border 1px solid darken(#ddd, 20%)
+  user-select none
+  pointer-events none
+
 .App
   composes container from '../lib/common.styl'
   background off-white
+
+  h1
+    margin-bottom bs
+
+  input
+    margin-bottom bs
+
+.loading
+  input
+    disabled()

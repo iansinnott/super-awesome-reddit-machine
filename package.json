@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "autoprefixer-loader": "*",
+    "axios": "^0.5.4",
     "axis": "*",
     "babel": "*",
     "babel-core": "*",
@@ -49,6 +50,7 @@
     "jade": "*",
     "keymirror": "*",
     "morgan": "*",
+    "nuclear-js": "^1.1.1",
     "react": "*",
     "react-hot-loader": "*",
     "rimraf": "*",
